@@ -5,8 +5,8 @@ def md5(message):
     # Khởi tạo các biến ban đầu
     a = 0x67452301
     b = 0xEFCDAB89
-    c = 0x10325476
-    d = 0x98BADCFE
+    d = 0x10325476
+    c = 0x98BADCFE
 
     # Tiền xử lý chuỗi văn bản
     original_length = len(message)
